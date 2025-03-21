@@ -1,0 +1,89 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../images/33676.jpg'); /* Path to your background image */
+  background-size:cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.login-box {
+  background-color:rgba(187, 223, 245, 0.85);;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  z-index: 2;
+}
+.login-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0 auto 15px auto; /* Centers the button horizontally and adds bottom margin */
+  background-color: white;
+  color: black;
+  border: 2px solid black; /* Adds a black border */
+  border-radius: 10px;
+  cursor: pointer;
+  width: fit-content; /* Makes the width fit the content inside the button */
+}
+
+
+.google-icon {
+  margin-right: 10px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: maroon;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.guest-link {
+  color: #1877f2;
+  text-decoration: none;
+}
+
+form {
+  margin-top: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.logo {
+  width: 30px; /* Adjust the width as needed */
+  margin-bottom: px; /* Spacing between logo and other elements */
+}
+.logo2
+{
+  width: 100px;
+  height: auto;
+}
